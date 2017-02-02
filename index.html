@@ -1,1 +1,97 @@
-Hello World
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Distributed Components</title>
+  <link rel='stylesheet' type='text/css' href='css/disco.css'>
+</head>
+<body>
+  <div id='header'>
+    <div class='floatL'>
+      <h1 id='header-title'>Distributed Components</h1>
+    </div>
+    <div class='floatR'>
+      <img id='header-logo' src='img/disco.png'>
+    </div>
+    <div class='clearB'></div>
+  </div>
+  <p>
+
+  Building reliable distributed systems is challenging for many reasons.
+  Such systems must tolerate faults gracefully: machines may crash, new
+  nodes may suddenly join or leave the system, and the network may drop,
+  reorder, or duplicate packets. Distributed systems are also highly
+  concurrent; engineers must ensure that for any schedule of events, the
+  system's key correctness guarantees are maintained and that the service
+  remains available.  Furthermore, large-scale applications are often built by
+  composing services from multiple distributed systems, requiring
+  developers to reason about interactions between different systems.
+
+  </p><p>
+
+  To help address these challenges, the
+  <!-- -->
+  <a href='https://github.com/DistributedComponents'>Distributed Components</a>
+  <!-- -->
+  (or "DisCo" for short) project provides reusable infrastructure for
+  formally verifying distributed systems using the <a href=''>Coq</a> proof
+  assistant.
+
+  <h2>News</h2>
+  <p>
+    <span class='news-date'>Jan 2017</span> Ryan Doegnes will give a talk on
+    Verdi extensions to support churn at CoqPL 2017.
+  </p><p>
+    <span class='news-date'>Jan 2016</span> James Wilcox will give a talk on
+    our experiences verifying Raft in Verdi at CPP 2016.
+  </p><p>
+    <span class='news-date'>Jun 2015</span> Doug Woos will give a talk on
+    the design of the Verdi framework at PLDI 2015.
+  </p>
+
+  <h2>Projects</h2>
+  <p>
+
+  Currently, DisCo projects include:
+
+  </p><ul>
+
+    <li>Disel</li>
+
+    <li>Verdi</li>
+    <ul>
+      <li>LockServ</li>
+      <li>Raft</li>
+      <li>Aggregation</li>
+      <li>Chord</li>
+      <li>Runtime</li>
+      <li>Cheerios</li>
+    </ul>
+
+    <li>InfSeqExt</li>
+
+  </ul>
+
+  <h2>Contributors</h2>
+  <p>
+
+  DisCo is an international collaboration between researchers at the
+  Unviersity of Washington, University College London, and the University
+  of Illinois.  Many volunteers have helped out on DisCo projects; we're
+  very grateful for their contributions! Folks currently working on DisCo
+  include:
+
+  </p><ul>
+    <li>Tom Anderson</li>
+    <li>Ryan Doenges</li>
+    <li>Michael Ernst</li>
+    <li>Karl Palmskog</li>
+    <li>Ilya Sergey</li>
+    <li>Keith Simmons</li>
+    <li>Zach Tatlock</li>
+    <li>James Wilcox</li>
+    <li>Doug Woos</li>
+  </ul>
+
+</body>
+</html>
