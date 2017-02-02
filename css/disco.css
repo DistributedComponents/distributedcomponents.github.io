@@ -22,7 +22,7 @@ a {
 a:hover {
   text-decoration: underline;
 }
-.news-date {
+.post-date {
   font-style: italic;
   padding-right: 5px;
 }
